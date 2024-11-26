@@ -4,7 +4,7 @@
 }
 
 body {
-  background-color: aqua;
+  /* background-color: aqua; */
   /* max-width: 100%;
     max-height: 100vh; */
   /* overflow: hidden; */
@@ -103,6 +103,7 @@ button {
   padding-right: 24px;
   padding-top: 10px;
   padding-bottom: 10px;
+  height: 44px;
 }
 .container3 {
   /* position: ;
@@ -123,16 +124,95 @@ button {
 }
 .container4 {
   width: 100%;
-  /* height: ; */
+  height: 326.25;
+  /* background-color: aqua; */
 }
 .subcontainer4 {
   margin-left: auto;
   margin-right: auto;
   position: relative;
   text-align: center;
+  width: 80%;
 }
 .movingIcons {
-  width: 80%;
+  position: relative;
+  width: 100%;
+  height: 100px;
   margin: auto;
   display: flex;
+  align-items: center;
+  justify-content: center;
+  /* background-color: bisque; */
+}
+
+.movingIcons div {
+  /* width: 247.25 px; */
+
+  /* margin-right: 30px; */
+  /* background-color: blue; */
+  /* display: block; */
+  justify-content: center;
+}
+.fortune {
+  margin-right: 30px;
+  width: 20%;
+  height: 426.25px;
+}
+.berkontribusi {
+  margin-right: 30px;
+  width: 20%;
+  height: 426.25px;
+}
+.jaket {
+  margin-right: 30px;
+  width: 20%;
+
+  height: 426.25px;
+}
+.tumbuh {
+  margin-right: 30px;
+  width: 20%;
+  height: 426.25px;
+}
+
+.movingIcons img {
+  object-fit: fill;
+  width: 150px;
+  height: 186.45;
+}
+.movingIcons h3 {
+  font-family: "Maison Neue Extended Extra Bold";
+  font-size: 24px;
+  line-height: 32px;
+  margin-bottom: 8px;
+  margin-top: 24px;
+  /* background-color: #00b80d; */
+  /* height: 64px; */
+}
+.movingIcons p {
+  font-family: "Maison Neue Book";
+  font-size: 18px;
+}
+.container5 {
+  /* position: relative; */
+  width: 100%;
+  /* height: 240px; */
+  /* background-color: #00b80d; */
+  margin: auto;
+}
+.subcontainer5 {
+  position: relative;
+  margin: auto;
+  width: 80%;
+  height: 120px;
+  display: flex;
+  text-align: center;
+  justify-content: center;
+}
+.subcontainer5 h2 {
+  font-size: 48px;
+  line-height: 64px;
+  letter-spacing: 0.8 px;
+  font-family: "Maison Neue Extended Extra Bold";
+  padding-bottom: 40px;
 }
